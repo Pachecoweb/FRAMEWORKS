@@ -1,11 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 .logo{
 	width:490px;
 	margin-left:20px;
 	margin-top:20px;
+}
+
+.logo-2{
+	width:350px;
+	margin-top:55px;
+	margin-bottom:-20px !important;
 }
 
 .fondo-principal{
@@ -18,36 +23,72 @@
 .redes-sociales{
 	text-align:right;
 	margin-top:135px;
-	margin-right:30px;
+	margin-right:10px;
 }
 
 .nav-text{
 	color:white;
 	font-family:GeosansLight;
 	font-size:26px;
+	min-height:40px;
 }
 
 .panel-info{
-	background:rgba(0,0,0,0.10);
-	margin-top:10px;
+	background:rgba(0,0,0,0.30);
+}
+
+.panel-info-2{
+	background:rgba(153,0,0,0.20);
 }
 
 .info{
-	margin-top:30px;
+	margin-top:35px;
 }
 
 
 h5{
 	font-size:34px;
 	color:white;
-	margin-top:10px;
+	margin-top:30px;
+	margin-bottom:15px;
 }
 
-p{
+.p-info-1{
 	color:white;
 	font-size:14px;
 	text-align:justify;
-	margin-left:30px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.p-info-2{
+	color:white;
+	font-size:14px;
+	text-align:justify;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+.p-right{
+	margin-right:10px;
+}
+
+.span-color{
+	color:red;
+}
+
+.comentarios{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:10px;
+}
+
+.comentarios-2{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5px;
 }
 
 .img-logo{
@@ -58,8 +99,52 @@ p{
 }
 
 .photo-info{
-	max-width:300px;
+	max-width:320px;
 	margin-top:30px;
 	margin-bottom:30px;
-	margin-left:30px;
+	margin-right:5%;
+	margin-left:5%;
+}
+
+.photo-info-2{
+	max-width:320px;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.text-bar{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.btn-music{
+	width:100%;
+	font-size:18px;
+}
+
+.btn-music li{
+	color:#FFD608;
+	background:rgba(255,255,255,0.10);
+	font-weight:bolder;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px white outset;
+}
+
+@media screen and (max-width:480px){
+	
+	.photo-info{
+		width:90%;
+	}
+	
+	.photo-info-2{
+		width:90%;
+	}
+	
+	.redes-sociales{
+		text-align:center;
+		margin-bottom:50px;
+	}
 }
