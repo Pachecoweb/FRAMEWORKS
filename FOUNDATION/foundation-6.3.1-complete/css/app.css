@@ -1,0 +1,243 @@
+
+
+.contenido{
+	background-color:rgba(204,204,204,0.40);
+	margin:20px 20px 0px 20px;
+}
+
+.contenido-2{
+	background-color:rgba(102,102,102,0.35);
+	border-radius:15px 0px 0px 15px;
+}
+
+.contenido-3{
+	background-color:rgba(255,255,255,0.70);
+	margin-bottom:20px;
+	padding-bottom:10px;
+	border-radius:0px 15px 15px 15px;
+}
+
+.fondo{
+	background:url(../../IMG-Gastro/Cocina-marmol.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.text-bar-1{
+	width:90%;
+	margin-top:10px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.textbar-box-1{
+	margin-bottom:20px;
+}
+
+.titulo-logo{
+	width:100%;
+	margin-top:35px;
+	margin-left:10px;
+}
+
+.slogan{
+	margin-bottom:30px;
+	margin-top:0px;
+	color:#900;
+	text-shadow:1px 1px 4px white;
+}
+
+.navegacion li{
+	background:rgba(255,153,0,0.60);
+	color:#FFFFFF;
+}
+
+.favoritos{
+	color:white;
+	font-size:36px;
+}
+
+.platillos{
+	border-radius:10px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.historial li{
+	background:rgba(255,153,0,0.60);
+	color:#FFFFFF;
+}
+
+.marco-sushi{
+	width:90%;
+	background:rgba(255,255,255,1);
+	border-radius:15px;
+}
+
+.marco-reposteria{
+	width:90%;
+	background:rgba(204,51,255,0.10);
+	border-radius:15px;
+}
+
+.sushi-text{
+	padding-top:30px;
+	font-size:35px;
+	margin-top:20px;
+	color:black;
+	font-weight:bold;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.sushi-img{
+	width:75%;
+	margin:5px;
+	text-align:center;
+	border-radius:10px;
+}
+
+.sushi-info{
+	width:80%;
+	font-size:14px;
+	margin-top:10px;
+	padding:10px 0px;
+}
+
+.reposteria-info{
+	width:80%;
+	font-size:14px;
+	margin-top:10px;
+	padding:10px 0px;
+}
+
+.comentarios{
+	width:90%;
+	margin-bottom:15px;
+	margin-top:15px;
+	padding:10px 0px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.c-texto{
+	border-radius:5px;
+}
+
+.respuesta-panel-name{
+	width:90%;
+	background:rgba(51,51,51,0.70);
+	border-radius:10px;
+	margin:10px 0px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.name-chip{
+	color:white;
+	font-size:18px;
+	margin-left:10px;
+}
+
+.respuesta-panel{
+	width:90%;
+	background:rgba(255,153,0,0.15);
+	border-radius:10px;
+	margin:10px 0px;
+	margin-left:5%;
+	margin-right:5%;
+	padding:4px 0px;
+}
+
+.respuesta{
+	width:70%;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.respuesta p{
+	width:90%;
+	font-size:12px;
+	color:black;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.chef-panel{
+	width:90%;
+	text-align:center;
+	background:rgba(153,153,153,0.15);
+	border-radius:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin:10px 0px;
+}
+
+.chef-img{
+	width:125px;
+	text-align:center;
+	border-radius:50%;
+	margin-left:40px;
+	margin-right:40px;
+}
+	
+
+@media screen and (max-width:480px){
+	
+	.fondo{
+		background:url(../../IMG-Gastro/Kitchen-classic.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-attachment:fixed;
+	}
+	
+	.contenido{
+		width:90%;
+		background-color:rgba(255,102,0,0.20);
+		margin-left:5%;
+		margin-right:5%;
+		margin-bottom:15px;
+		padding:0px 10px;
+	}
+	
+	.gastro-logo{
+		width:90%;
+		margin-top:10px;
+		margin-left:5%;
+		margin-right:5%;
+	}
+	
+	.movil-off{
+		display:none;
+	}
+	
+	.contenido-3{
+		border-radius:10px;
+	}
+	
+	.chef-img{
+		width:70%;
+		text-align:center;
+		border-radius:5px;
+	}
+	
+	.respuesta{
+		width:50%;
+	}
+	
+	.respuesta p{
+		width:90%;
+		font-size:14px;
+		color:black;
+		margin-left:5%;
+		margin-right:5%;
+	}
+	
+	.chef-img{
+		width:150px;
+		text-align:center;
+		border-radius:50%;
+		margin-left:40px;
+		margin-right:40px;
+	}
+}
