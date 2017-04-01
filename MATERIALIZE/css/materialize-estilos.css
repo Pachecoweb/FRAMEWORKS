@@ -1,0 +1,49 @@
+
+
+.fondo{
+	background-image:url(../IMG-Turismo/turismo-monta%C3%B1as.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.turismo-logo{
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+			
+}
+
+.navegador{
+	border-radius:15px;
+	background:rgba(153,255,0,0.45);
+}
+
+.waves-effect{
+	background:rgba(153,0,255,0.60)
+}
+
+.slogan-text{
+	font-size:60px;
+	font-family:"Always In My Heart";
+	margin-top:130px;
+	text-shadow:2px 2px 1px purple;
+}
+
+.r-social{
+	width:30px;
+	height:30px;
+}
+
+.color-panel-1{
+	background-color:rgba(255,109,0,0.35);
+	border-radius:20px 20px 0px 0px;
+	margin-top:20px;
+}
+
+/* IMAGENES - CONTENIDO */
+
+.galeria-img{
+	width:100%;
+}
+
