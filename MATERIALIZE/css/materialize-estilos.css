@@ -1,9 +1,17 @@
 
 
+<<<<<<< HEAD
 body{
 	background-image:url(../IMG-Turismo/Monta%C3%B1as-paraiso.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
+=======
+.fondo{
+	background-image:url(../IMG-Turismo/turismo-monta%C3%B1as.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+>>>>>>> 'Foundation'
 }
 
 .turismo-logo{
@@ -23,7 +31,11 @@ body{
 }
 
 .slogan-text{
+<<<<<<< HEAD
 	font-size:
+=======
+	font-size:60px;
+>>>>>>> 'Foundation'
 	font-family:"Always In My Heart";
 	margin-top:130px;
 	text-shadow:2px 2px 1px purple;
@@ -40,3 +52,12 @@ body{
 	margin-top:20px;
 }
 
+<<<<<<< HEAD
+=======
+/* IMAGENES - CONTENIDO */
+
+.galeria-img{
+	width:100%;
+}
+
+>>>>>>> 'Foundation'
