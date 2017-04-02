@@ -1,17 +1,10 @@
 
 
-<<<<<<< HEAD
-body{
-	background-image:url(../IMG-Turismo/Monta%C3%B1as-paraiso.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-=======
 .fondo{
 	background-image:url(../IMG-Turismo/turismo-monta%C3%B1as.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
->>>>>>> 'Foundation'
 }
 
 .turismo-logo{
@@ -21,29 +14,24 @@ body{
 			
 }
 
-.navegador{
-	border-radius:15px;
-	background:rgba(153,255,0,0.45);
-}
-
 .waves-effect{
-	background:rgba(153,0,255,0.60)
+	background:rgba(51,51,255,0.75);
 }
 
 .slogan-text{
-<<<<<<< HEAD
-	font-size:
-=======
 	font-size:60px;
->>>>>>> 'Foundation'
 	font-family:"Always In My Heart";
 	margin-top:130px;
 	text-shadow:2px 2px 1px purple;
 }
 
 .r-social{
-	width:30px;
-	height:30px;
+	width:50px;
+	height:50px;
+	display:list-item;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:15px;
 }
 
 .color-panel-1{
@@ -52,12 +40,170 @@ body{
 	margin-top:20px;
 }
 
-<<<<<<< HEAD
-=======
 /* IMAGENES - CONTENIDO */
 
 .galeria-img{
 	width:100%;
+	margin-top:6px;
+	margin-bottom:6px;
+	margin-left:2px;
+	margin-right:2px;
+	border-radius:10px;
 }
 
->>>>>>> 'Foundation'
+.color-panel-2{
+	background-color:rgba(204,51,0,0.60);
+	border-radius:0px 0px 20px 20px;
+	margin-top:20px;
+}
+
+.entrada-blog{
+	font-family:"Always In My Heart";
+	font-size:68px;
+	margin-left:20px;
+	text-shadow:2px 2px 1px orange;
+}
+
+.comentarios-blog{
+	font-family:"Always In My Heart";
+	font-size:68px;
+	margin-left:20px;
+	text-shadow:2px 2px 1px purple;
+}
+
+.fecha-blog{
+	margin-left:20px;
+}
+
+.blog-img{
+	width:100%;
+	border-radius:10px;
+	margin-left:25px;
+}
+
+.info-blog{
+	margin:5px 15px;
+	text-align:justify;
+}
+
+.info-blog-2{
+	font-family:"Always In My Heart";
+	font-size:50px;
+	margin:5px 15px;
+	text-align:justify;
+}
+
+.info-blog-2 li{
+	margin:5px 20px;
+	text-align:justify;
+}
+
+.perfil-panel{
+	background:rgba(255,204,0,0.45);
+	margin:0px 5px 10px 5px;
+	border-radius:0px 0px 15px 15px;
+}
+
+.form-panel{
+	background:rgba(255,0,0,0.60);
+	margin-left:45px;
+	border-radius:0px 10px 10px 0px;
+}
+
+.icon-form{
+	margin-left:5px;
+}
+
+.enviar{
+	margin:10px;
+}
+
+.perfil-img{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:20px;
+}
+
+.perfil-info{
+	margin-top:10px;
+	margin-bottom:15px;
+	margin-left:25px;
+	margin-right:25px;
+	text-align:justify;
+	padding-bottom:10px;
+}
+
+.perfil-info ul li{
+	list-style:disc !important;
+	margin-left:20px;
+	text-align:justify;
+}
+
+@media screen and (max-width:480px){
+	
+	.blog-img{
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+		text-align:center;
+	}
+	
+	.movil-info-blog{
+		clear:right;
+	}
+	
+	.turismo-logo{
+		width:80%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+	
+	.slogan-text{
+		margin:15px;
+		font-size:36px;
+	}
+	
+	.navegador-movil{
+		width:100%;
+		display:compact;
+	}
+	
+	.info-blog-2{
+		width:80%;
+		margin-right:20%;
+		text-align:center;
+		font-size:28px;
+		text-align-last:center;		
+	}
+	
+	.comentarios-blog{
+		font-size:42px;
+	}
+	
+	.entrada-blog{
+		width:90%;
+		margin-top:20px;
+		margin-left:5%;
+		margin-right:5%;
+		font-size:40px;
+		text-align:center;
+	}
+	
+	.fecha-blog{
+		font-size:12.5px;
+		font-style:italic;
+		text-align:justify;
+	}
+	
+	blockquote{
+		display:none;
+	}
+}
+	
+	
+	
+	
+	
+	
+
